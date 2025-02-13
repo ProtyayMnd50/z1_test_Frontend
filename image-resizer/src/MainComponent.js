@@ -4,8 +4,8 @@ import { useDropzone } from "react-dropzone";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-// const BACKEND_URL = "https://z1-test-backend.onrender.com"; // 🔹 Your backend URL
-const BACKEND_URL = " http://127.0.0.1:8000"; // 🔹 Your deployed backend
+const BACKEND_URL = "https://z1-test-backend.onrender.com"; // 🔹 Your backend URL
+// const BACKEND_URL = " http://127.0.0.1:8000"; // 🔹 Your deployed backend
 
 const MainComponent = () => {
   const [selectedFile, setSelectedFile] = useState(null);
